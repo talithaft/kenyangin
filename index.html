@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Saya</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand me-auto" href="#">Kenyangin</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="promo.html">Promo</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="cart.html" tabindex="-1" aria-disabled="true"><i
+                                class="bi bi-cart me-1"></i>Keranjang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid banner d-flex align-items-center">
+        <div class="container">
+            <h1 class="text-light text-center display-6 mb-3">Selamat Datang di Kafe Favoritmu</h1>
+            <h2 class="text-light text-center mb-3">kamu mau makan apa?</h2>
+            <div class="col-md-8 offset-md-2">
+                <div class="input-group input-group-lg">
+                    <select class="form-control" id="inputGroupSelect04">
+                        <option selected>Kategori Makanan</option>
+                        <option value="1">Local Food</option>
+                        <option value="2">Western Food</option>
+                        <option value="3">Eastern Food</option>
+                    </select>
+                    <div class="input-group-append">
+                        <button class="btn btn-lg btn-warning text-light" type="button">Telusuri</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h2 class="text-center">Ramadhan Sale!</h2>
+
+            <div class="row mt-5 justify-content-center">
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="image/product/thumb/rice-curry.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Potongan 30%</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, possimus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="image/product/thumb/grilled-meat.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Potongan 20%</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, possimus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="image/product/thumb/raspberry-cake.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Gratis 1 Slice Raspberry Cake</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, possimus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-5 d-flex justify-content-center">
+                    <a href="promo.html" class="btn btn-warning btn-lg text-light">Lihat Semua Promo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-white text-center mb-5"> Kami Melayani</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-3" style="border: solid display: block;;">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon-service d-flex align-items-center justify-content-center">
+                            <i class="bi bi-bicycle display-6"></i>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-white text-center">
+                        <h5>Delivery</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sint odit ullam exercitationem
+                            velit. Recusandae.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3" style="border: solid display: block;;">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon-service d-flex align-items-center justify-content-center">
+                            <i class="bi bi-basket display-6"></i>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-white text-center">
+                        <h5>Take Away</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sint odit ullam exercitationem
+                            velit. Recusandae.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3" style="border: solid display: block;;">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon-service d-flex align-items-center justify-content-center">
+                            <i class="bi bi-cup-straw display-6"></i>
+                        </div>
+                    </div>
+                    <div class="mt-3 text-white text-center">
+                        <h5>Dine in</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sint odit ullam exercitationem
+                            velit. Recusandae.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">BEST SELLER!</h2>
+
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <a href="image/product/butter-cookie.jpg" data-lightbox="produk-butter-cookie"
+                            data-title="Butter Cookie">
+                            <img class="card-img-top" src="image/product/thumb/butter-cookie.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-warning">Butter Cookie</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h6 class="text-warning">IDR 25000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <a href="image/product/cheese-cake.jpg" data-lightbox="produk-cheese-cake"
+                            data-title="Cheese Cake">
+                            <img class="card-img-top" src="image/product/thumb/cheese-cake.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-warning">Cheese Cake</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h6 class="text-warning">IDR 20000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <a href="image/product/strawberry-drink.jpg" data-lightbox="produk-strawberry-drink"
+                            data-title="Pink Mojito">
+                            <img class="card-img-top" src="image/product/thumb/strawberry-drink.jpg"
+                                alt="Card image cap">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-warning">Pink Mojito</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h6 class="text-warning">IDR 18000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 hovered-card mb-3">
+                    <div class="card">
+                        <a href="image/product/cereal.jpg" data-lightbox="produk-cereal" data-title="Overnight Oat">
+                            <img class="card-img-top" src="image/product/thumb/cereal.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-warning">Overnight Oat</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <h6 class="text-warning">IDR 27000</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5 d-flex justify-content-center">
+                <a href="produk.html" class="btn btn-warning btn-lg text-light">Lihat Lainnya</a>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container-fluid py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-white text-center mb-5">Kata Customer Gini...</h2>
+            <div class="row" data-masonry='{"percentPosition": true }'>
+                <div class="col-lg-4 mb-3 hovered-card">
+                    <div class="card p-3">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Makanannya rendah kalori, bikin kenyang ga bikin gendut</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Bella bukan Swan
+                            </figcaption>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sunt deleniti at
+                                enim blanditiis quis ipsam commodi earum praesentium dignissimos?
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 hovered-card">
+                    <div class="card p-3">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Banyak promo buat mahasiswa</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Talithaft14
+                            </figcaption>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sunt deleniti at
+                                enim blanditiis quis ipsam commodi earum praesentium dignissimos?
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 hovered-card">
+                    <div class="card p-3">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Rasanya standar tapi porsinya banyak</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Mega Chan
+                            </figcaption>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquid quas nulla
+                                nisi adipisci? Nihil quae porro distinctio natus hic eligendi, consequuntur ut, esse
+                                odit quaerat, corrupti consectetur facilis?
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 hovered-card">
+                    <div class="card p-3">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Solusi buat yang pengen makan enak tapi harga ramah di kantong</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                SpiderMan far from Happiness
+                            </figcaption>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet voluptas unde aspernatur
+                                enim, eaque, facere molestiae esse voluptatem libero architecto laborum hic rerum?
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 hovered-card">
+                    <div class="card p-3">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Menunya cocok buat nemenin belajar tengah malem</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                Jepri Nikol
+                            </figcaption>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa qui alias pariatur eum
+                                commodi dicta sapiente ut.
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 hovered-card">
+                    <div class="card p-3">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p>Suka dine-in soalnya mas yang masak ganteng hihi</p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                PutriTidur008
+                            </figcaption>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum id labore nostrum nisi
+                                facere qui amet illum maxime voluptas iure! Culpa optio doloremque nulla esse sed!
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h2 class="text-center">RSVP</h2>
+            <p class="text-center">Jangan sampai kehabisan tempat. Reservasi sekarang !!!</p>
+
+            <form class="col-lg-6 offset-lg-3 mt-5">
+                <div class="mb-3">
+                    <label for="nama" class="from-label">Nama</label>
+                    <input type="type" class="form-control" id="nama">
+                </div>
+                <div class="mb-3">
+                    <label for="nokontak" class="from-label">No. Kontak</label>
+                    <input type="type" class="form-control" id="nokontak">
+                </div>
+                <div class="mb-3">
+                    <label for="jumlahmeja" class="from-label">Jumlah Meja</label>
+                    <input type="type" class="form-control" id="jumlahmeja">
+                </div>
+                <div>
+                    <button class="btn btn-warning text-white w-100">Reservasi</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5 bg-dark text-white">
+        <div class="container">
+            <h5 class="text-center mb-4">Temui Kami</h5>
+            <div class="row justify-content-center">
+                <div class="col-md-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-facebook fs-4"></i>
+                </div>
+                <div class="col-md-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-instagram fs-4"></i>
+                </div>
+                <div class="col-md-1 d-flex justify-content-center mb-2">
+                    <i class="bi bi-tiktok fs-4"></i>
+                </div>
+            </div>
+
+            <h5 class="text-center mt-5 mb-0">Subscribe</h5>
+            <p class="text-center font-monospace">untuk informasi tentang promo</p>
+
+            <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                <div class="input-group mb-3 col">
+                    <input type="text" class="form-control" placeholder="E-mail"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-warning text-light" type="button" id="button-addon2">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mt-3 container-fluid py-3 bg-dark text-light">
+        <div class="container d-flex justify-content-between">
+            <label>&copy;2023 Kenyangin</label>
+            <label>Created by Talithaft14</label>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
+
+</body>
+
+</html>

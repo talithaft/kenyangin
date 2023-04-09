@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Saya | Cart</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand me-auto" href="#">Kenyangin</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="promo.html">Promo</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><i
+                                class="bi bi-cart me-1"></i>Keranjang</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h2 class="text-center my-5">Keranjang Belanja</h2>
+
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th>#</th>
+                        <th>Pesanan</th>
+                        <th>Harga</th>
+                        <th>Jumlah</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/honey-pancake.jpg" data-lightbox="honey-pancake"
+                                data-title="Honey Pancake">
+                                <img src="image/product/thumb/honey-pancake.jpg" class="img-thumbnail d-none d-sm-block"
+                                    width="150px" alt="">
+
+                                <label class="d-block d-sm-none">Honey Pancake</label>
+                            </a>
+                        </td>
+                        <td>Honey Pancake</td>
+                        <td>18000</td>
+                        <td>1</td>
+                        <td>Rp 18.000</td>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/skewer.jpg" data-lightbox="skewer" data-title="Skewer">
+                                <img src="image/product/thumb/skewer.jpg" class="img-thumbnail d-none d-sm-block"
+                                    width="150px" alt="">
+
+                                <label class="d-block d-sm-none">Skewer</label>
+                            </a>
+                        </td>
+                        <td>Skewer</td>
+                        <td>15000</td>
+                        <td>2</td>
+                        <td>Rp 30.000</td>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/tofu-rice.jpg" data-lightbox="tofu-rice" data-title="Tofu Bowl">
+                                <img src="image/product/thumb/tofu-rice.jpg" class="img-thumbnail d-none d-sm-block"
+                                    width="150px" alt="">
+
+                                <label class="d-block d-sm-none">Tofu Bowl</label>
+                            </a>
+                        </td>
+                        <td>Tofu Bowl</td>
+                        <td>20000</td>
+                        <td>1</td>
+                        <td>Rp 20.000</td>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/rice-curry.jpg" data-lightbox="rice-curry" data-title="Rice Curry">
+                                <img src="image/product/thumb/rice-curry.jpg" class="img-thumbnail d-none d-sm-block"
+                                    width="150px" alt="">
+
+                                <label class="d-block d-sm-none">Rice Curry</label>
+                            </a>
+                        </td>
+                        <td>Rice Curry</td>
+                        <td>22000</td>
+                        <td>1</td>
+                        <td>Rp 22.000</td>
+                    </tr>
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/strawberry-drink.jpg" data-lightbox="strawberry-drink"
+                                data-title="Pink Mojito">
+                                <img src="image/product/thumb/strawberry-drink.jpg"
+                                    class="img-thumbnail d-none d-sm-block" width="150px" alt="">
+
+                                <label class="d-block d-sm-none">Pink Mojito</label>
+                            </a>
+                        </td>
+                        <td>Pink Mojito</td>
+                        <td>15000</td>
+                        <td>2</td>
+                        <td>Rp 30.000</td>
+                    </tr>
+                    <tr>
+                        <th colspan="4">Total</th>
+                        <th>Rp 120.000</th>
+                    </tr>
+                </table>
+            </div>
+
+            <button class="btn btn-warning text-light">Check Out</button>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+
+</body>
+
+</html>
